@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício de Arrays com Input</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Exercícios com Arrays - Interativo</h1>
+
+  <div class="box">
+    <label for="nomes">Digite 5 nomes separados por vírgula:</label><br>
+    <input type="text" id="nomes" placeholder="Ex: Ana,Bruno,Carlos,Daniela,Eduardo">
+  </div>
+
+  <div class="box">
+    <label for="numeros">Digite números para o map (dobrar valores), separados por vírgula:</label><br>
+    <input type="text" id="numeros" placeholder="Ex: 2,4,6,8">
+  </div>
+
+  <div class="box">
+    <label for="filtro">Digite números para o filter (>5), separados por vírgula:</label><br>
+    <input type="text" id="filtro" placeholder="Ex: 1,3,5,7,9">
+  </div>
+
+  <button onclick="executarExercicios()">Executar</button>
+  <button class="limpar" onclick="limparResultados()">Limpar Resultados</button>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
